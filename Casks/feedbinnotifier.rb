@@ -4,7 +4,7 @@ cask "feedbinnotifier" do
 
   url "https://github.com/kmikael/FeedbinNotifier/releases/download/v#{version}/FeedbinNotifier.zip"
   name "FeedbinNotifier"
-  desc "Feedbin unread count menu bar application."
+  desc "Feedbin unread count in menu bar."
   homepage "https://github.com/kmikael/FeedbinNotifier"
 
   # Documentation: https://docs.brew.sh/Brew-Livecheck
@@ -15,8 +15,10 @@ cask "feedbinnotifier" do
 
   depends_on macos: ""
 
-  app ""
+  app "FeedbinNotifier.app"
 
+  uninstall quit: "com.kmikael.FeedbinNotifier"
+  
   # Documentation: https://docs.brew.sh/Cask-Cookbook#stanza-zap
-  zap trash: ""
+  zap trash: "~/Library/Preferences/com.kmikael.FeedbinNotifier.plist"
 end
