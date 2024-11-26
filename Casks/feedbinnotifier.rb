@@ -3,7 +3,7 @@ cask "feedbinnotifier" do
   sha256 "82234ee8992e5180cfc3dac8624eb8e75047c80bb4e7e2360c71b226a211c40c"
 
   url "https://github.com/kmikael/FeedbinNotifier/releases/download/v#{version}/FeedbinNotifier.zip"
-  name "FeedbinNotifier"
+  name "Feedbin Notifier"
   desc "Feedbin unread count in menu bar."
   homepage "https://github.com/kmikael/FeedbinNotifier"
 
