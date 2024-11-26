@@ -5,7 +5,7 @@ cask "feedbinnotifier" do
   url "https://github.com/kmikael/FeedbinNotifier/releases/download/v#{version}/FeedbinNotifier.zip"
   name "Feedbin Notifier"
   desc "Feedbin unread count in menu bar."
-  homepage "https://github.com/kmikael/FeedbinNotifier"
+  homepage "https://kmikael.com/FeedbinNotifier/"
 
   # Documentation: https://docs.brew.sh/Brew-Livecheck
   livecheck do
