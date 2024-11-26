@@ -13,8 +13,6 @@ cask "feedbinnotifier" do
     strategy ""
   end
 
-  depends_on macos: ""
-
   app "FeedbinNotifier.app"
 
   uninstall quit: "com.kmikael.FeedbinNotifier"
