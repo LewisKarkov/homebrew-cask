@@ -1,4 +1,5 @@
-cask "battery-toolkit" do
+# copied from https://github.com/mhaeuser/homebrew-mhaeuser/blob/main/Casks/b/battery-toolkit.rb
+cask "lewiskarkov-battery-toolkit" do
   arch arm: "arm64"
 
   version "1.6"
@@ -39,4 +40,3 @@ cask "battery-toolkit" do
     This app will not work with quarantine attribute.
   EOS
 end
-# copied from https://github.com/mhaeuser/homebrew-mhaeuser/blob/main/Casks/b/battery-toolkit.rb
