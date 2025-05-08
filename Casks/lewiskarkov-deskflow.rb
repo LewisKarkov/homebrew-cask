@@ -1,4 +1,4 @@
-#based off https://github.com/deskflow/homebrew-tap/blob/main/Casks/d/deskflow.rb
+# copied from https://github.com/deskflow/homebrew-tap/blob/main/Casks/d/deskflow.rb
 cask "lewiskarkov-deskflow" do
   arch arm: "arm64", intel: "x86_64"
 
