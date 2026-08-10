@@ -35,7 +35,7 @@ cask "lewiskarkov-wine-stable" do
 
   conflicts_with cask: [
     "wine@devel",
-    "wine@staging",
+    "lewiskarkov-wine@staging",
   ]
   depends_on :macos
   depends_on cask: "gstreamer-runtime"
