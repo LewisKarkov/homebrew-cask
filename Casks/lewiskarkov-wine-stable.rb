@@ -38,7 +38,7 @@ cask "lewiskarkov-wine-stable" do
     "lewiskarkov-wine@staging",
   ]
   depends_on :macos
-  depends_on cask: "gstreamer-runtime"
+  depends_on cask: "lewiskarkov-gstreamer-runtime"
 
   app "Wine Stable.app"
   binary "#{appdir}/Wine Stable.app/Contents/Resources/start/bin/appdb"
