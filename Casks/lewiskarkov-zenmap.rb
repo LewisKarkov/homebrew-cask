@@ -1,4 +1,4 @@
-cask "zenmap" do
+cask "lewiskarkov-zenmap" do
   version "7.991"
   sha256 "a1726429e4b6717ee9c98213a52e5fae2f365037bd1bf5fd570cebb68965049e"
 
