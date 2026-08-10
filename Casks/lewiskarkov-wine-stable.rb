@@ -1,4 +1,4 @@
-cask "wine-stable" do
+cask "lewiskarkov-wine-stable" do
   version "11.0_1"
   sha256 "b50dc50ec7f41d58b115a6b685d4d1315ba3c797bd3aa0f49213f2703cb82388"
 
